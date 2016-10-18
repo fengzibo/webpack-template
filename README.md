@@ -102,3 +102,10 @@
 ## npm 安装错误 npm ERR! Darwin 13.4.0 ##
 
 npm cache clear
+如果 npm cache clear不行，就试试下面的步骤
+1、sudo npm uninstall npm -g
+如果步骤1卸不掉npm了（我就是这种情况）
+2、进到npm的安装目录 /usr/local/lib/node_modules/npm/
+sudo make uninstall
+3、手动重装npm
+curl -L https://npmjs.com/install.sh | sh
