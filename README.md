@@ -99,6 +99,6 @@
     $ npm run buildP
     $ npm run deployP
 
+## npm 安装错误 npm ERR! Darwin 13.4.0 ##
 
-
-
+npm cache clear
